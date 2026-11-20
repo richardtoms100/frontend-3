@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+
 env:
   NEXT_PUBLIC_API_URL: http://localhost:3000
   NEXT_PUBLIC_STELLAR_NETWORK: testnet
